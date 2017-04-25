@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>Calm Technology</title>
+  <link type="text/css" rel="stylesheet" href="/style.css">
+	<link type="text/css" rel="stylesheet" href="/bootstrap-2.2.2/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="/bootstrap-2.2.2/css/bootstrap-responsive.min.css">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+<body>
+
+	   <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">CalmTechnology.com</a>
+		      <ul class="nav">
+            <li><a href="/about">About</a></li>
+            <li><a href="/book">Book</a></li>
+            <li><a href="/exercises">Exercises</a></li>
+            <li><a href="/papers">Papers</a></li>
+            <li><a href="/press">Press</a></li>
+
+          </ul>
+          <ul class="nav pull-right">
+            <li><a href="/feedback">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid container-narrow">
+
+<div class="row-fluid">
+	
+<!-- BEGIN INTRO SECTION -->
+
+<div style="padding:25px 25px 25px 25px;">
+
+<div class="span6">
+
+<hr style="border: 1px dashed #eee;" />
+
+		<p class="hero-text-bold">Coming Soon!</p>
+
+		<p class="hero-text">The Calm Technology podcast will feature interviews on technology with many different people across multiple fields. The podcast will be published bi-weekly. We're looking for sponsors! If you or your company would like to sponsor <a href="/feedback">please get in touch!</a></p>
+
+</div>
+
+<div style="clear:both"></div>
+
+
+<hr> 
+
+<p class="hero-text">CalmTechnology.com is written and maintained by <a href="http://caseorganic.com">Caseorganic.com</a>.</p>
+
+</div>
+
+
+<footer class="footer" >
+<a href="../layout/footer.html"></a>
+</footer>
+
+
+</body>
+
+</html>
+
+    

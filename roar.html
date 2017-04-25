@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+
+<style>
+
+@media all and (min-width: 770px)
+  {
+  #panel, #flip{
+      display:none;
+  }
+}
+@media all and (max-width: 768px)
+  {
+    li{
+      list-style-type: none;
+    }
+
+    a{
+      text-decoration: none;
+      color: lightgrey;
+    }
+    #panel, #flip {
+        width: 95%;
+        padding: 5px;
+        color:white;
+        text-align: center;
+        background-color: #000;
+        margin:auto;
+        text-decoration: none;
+    }
+
+    #panel li{
+        margin-right: 45px;
+    }
+
+    #panel {
+        display: none;
+    }
+  }
+</style>
+</head>
+<body>
+ 
+<div id="flip">=</div>
+<div id="panel">
+  <ul>
+    <li><a href="#.html">About</a></li>
+    <li><a href="#.html">Book</a></li>
+    <li><a href="#.html">Exercises</a></li>
+    <li><a href="#.html">Papers</a></li>
+    <li><a href="#.html">Press</a></li>
+    <br>
+    <li><a href="#.html">Contact</a></li>
+</div>
+<p>TEST SPOT</p>
+
+</body>
+</html>

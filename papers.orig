@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>Calm Technology</title>
+  <link type="text/css" rel="stylesheet" href="/style.css">
+	<link type="text/css" rel="stylesheet" href="/bootstrap-2.2.2/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="/bootstrap-2.2.2/css/bootstrap-responsive.min.css">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+<body>
+
+	   <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Calmtech.com</a>
+		      <ul class="nav">
+            <li><a href="/about">About</a></li>
+            <li><a href="/book">Book</a></li>
+            <li><a href="/exercises">Exercises</a></li>
+            <li><a href="/papers">Papers</a></li>
+            <li><a href="/press">Press</a></li>
+
+          </ul>
+          <ul class="nav pull-right">
+            <li><a href="/feedback">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid container-narrow">
+
+<div class="row-fluid">
+	
+<!-- BEGIN INTRO SECTION -->
+
+<div style="padding:25px 25px 25px 25px;">
+
+<div class="span6">
+
+<br>
+
+<p class="hero-text-bold"><strong>Original Papers on Calm Technology</strong></p>
+
+<br>
+
+		<p class="hero-text-bold">The following is a short list of papers that cover aspects of Calm Technology and Ubiquitous Computing.</p>
+		
+		<p class="hero-text-bold">These papers encapsulate a great deal of thinking about the future of computing. Many are far ahead of their time.</p>
+
+		 <hr style="border: 1px dashed #eee;" />
+
+<p class="hero-text-bold">1996</p>
+
+<p class="hero-text"><strong><a href="/papers/open-house.html">Open House.</a></strong> Mark Weiser. <i><a href="http://www.itp.tsoa.nyu.edu/~review/current/focus2/open00.html">ITP Review 2.0.</a></i> March 1996.</p> 
+
+<p class="hero-text"><strong><a href="/papers/coming-age-calm-technology.html">The Coming Age of Calm Technology</a></strong>. Mark Weiser and John Seely Brown. Xerox PARC, October 5, 1996.</p>
+
+<hr style="border: 1px dashed #eee;" />
+
+<p class="hero-text-bold">1995</p>
+
+<p class="hero-text"><b><a href="/papers/designing-calm-technology.html">Designing Calm Technology.</a></b> Mark Weiser and John Seely Brown, 1995.</p>
+
+<p class="hero-text"><strong><a href="/papers/technologists-responsibilities-and-social-change.html">The Technologist's Responsibilities and Social Change.</a></strong> Mark Weiser. Computer-Mediated Communication Magazine, V2N4. April 1, 1995.</p>	
+
+<hr style="border: 1px dashed #eee;" />
+
+<p class="hero-text-bold">1994</p>
+
+<p class="hero-text"><strong><a href="http://www.ubiq.com/hypertext/weiser/ACMInteractions2.html">The World is Not a Desktop</a></strong>. Mark Weiser. Interactions. January 1994.</p>
+
+<hr style="border: 1px dashed #eee;" />
+
+<p class="hero-text-bold">1993</p>
+
+<p class="hero-text"><strong><a href="http://www.ubiq.com/hypertext/weiser/UbiCACM.html">Some Computer Science Problems in Ubiquitous Computing.</a></strong> Mark Weiser. Communications of the ACM, July 1993.
+
+<hr style="border: 1px dashed #eee;" />
+
+<p class="hero-text-bold">1991</p>
+
+<p class="hero-text"><strong><a href="/papers/computer-for-the-21st-century.html">The Computer for the 21st Century</a></strong>, Mark Weiser.</p>
+
+<hr style="border: 1px dashed #eee;" />
+
+<p class="hero-text-bold">1989</p>
+
+<p class="hero-text"><strong><a href="http://www.ubiq.com/hypertext/weiser/PortableCommonRuntimeApproach.html">The Portable Common Runtime Approach to Interoperability.</a></strong> Mark Weiser, Alan Demers, and Carl Hauser. <I>ACM Symposium on Operating Systems Principles,</i> December 1989.</p>
+
+
+</div>
+
+<div class ="span1">
+</div>
+
+<div class = "span4">
+	&nbsp;
+<blockquote>
+	<p><i><b>Ubiquitous computing</b> is roughly the <b>opposite of virtual reality</b>. Where virtual reality puts people inside a computer-generated world, ubiquitous computing forces the computer to <b>live out here in the world with people.</b></i></p>
+	<br><p>-Mark Weiser</p>
+	&nbsp;
+</blockquote>
+
+</div>
+
+<div style="clear:both">
+
+ <!-- End Media Item with Image! -->
+
+<br><br><br>
+
+            <hr style="border: 1px dashed #eee;" />
+
+            <center><p class="hero-text-bold"><a href="/papers/">Papers</a></center>	
+            
+            <hr style="border: 1px dashed #eee;" />
+            
+            <center><p class="hero-text-bold"><a href="/book/">Book</a></center>	
+            
+            <hr style="border: 1px dashed #eee;" />
+
+            <center><p class="hero-text-bold"><a href="/exercises/">Exercises</a></center>
+            
+            <hr style="border: 1px dashed #eee;" />
+            
+            <center><p class="hero-text-bold"><a href="/presentations/">Presentations</a></center>
+            
+            <hr style="border: 1px dashed #eee;" />
+            
+            <center><p class="hero-text-bold"><a href="/press/">Press</a></center>	
+            <hr style="border: 1px dashed #eee;" />
+
+            
+
+<br><br><br>
+
+<center><p class="hero-text-bold">Have something to add? <a href="/feedback">Get in touch!</a></p></center>	
+
+<br>
+
+</div>
+<hr> 
+
+<center><p class="hero-text">CalmTechnology.com is written and maintained by <a href="http://caseorganic.com">Caseorganic.com</a>.</p></center> 
+
+<hr> 
+
+<div>
+		<p><i><b>Notice:</b> All articles included here retain the copyright of their respective authors and publishers. The articles are placed here for archival and educational purposes only. Links to original articles are included on every page. Articles that were not freely avaiable on the web were not included in this list. If you see anything out of place, or need to get in touch, please use the <a href="../feedback.php">feedback form</a>. </i></p>
+		
+</div>
+
+</body>
+
+</html>
+
+    

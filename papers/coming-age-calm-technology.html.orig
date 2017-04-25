@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>Calm Technology</title>
+  <link type="text/css" rel="stylesheet" href="/style.css">
+	<link type="text/css" rel="stylesheet" href="/bootstrap-2.2.2/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="/bootstrap-2.2.2/css/bootstrap-responsive.min.css">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  
+<body>
+	   <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">CalmTechnology.com</a>
+          <ul class="nav">
+            <li><a href="/about">About</a></li>
+            <li><a href="/papers">Papers</a></li>
+            <li><a href="/presentations">Presentations</a></li>
+            <li><a href="/podcast">Podcast</a></li>
+            <li><a href="/press">Press</a></li>
+
+          </ul>
+          <ul class="nav pull-right">
+            <li><a href="/feedback">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid container-narrow">
+
+<div class="row-fluid">
+	
+<!-- BEGIN INTRO SECTION -->
+
+<div style="padding:25px 25px 25px 25px;">
+
+<div class="span4">
+	<h4>The Coming Age of Calm Technology</h4>
+
+	<p><i>Mark Weiser and John Seely Brown, Xerox PARC, October 5, 1996.</i></p>
+
+	<p><i><a href="http://web.archive.org/web/19971011215148/http://www.ubiq.com/hypertext/weiser/acmfuture2endnote.htm">Archive.org Link to a copy of this file</i></a></p>
+</div> 
+
+<div class="span1">
+</div>
+
+<div class="span4">
+	<h4>Introduction</h4>
+	<p><strong>The important waves of technological change are those that <em>fundamentally alter</em> the place of technology in our lives. What matters is <em>not technology itself</em>, but its <em>relationship to us.</em></strong></p>
+
+	<p>In the <strong>past fifty years of computation</strong> there have been two great trends in this relationship: the mainframe relationship, and the PC relationship. Today the Internet is carrying us through an era of widespread distributed computing towards the relationship of ubiquitous computing, characterized by deeply imbedding computation in the world. Ubiquitous computing will require a new approach to fitting technology to our lives, an approach we call <b>"calm technology"</b>.</p>
+
+	<p>This article briefly describes the relationship trends, and then expands on the challenges of designing for calm using both the center and the periphery of our perception and the world.</p>
+	
+	<hr> 
+	
+	<h4>The Major Trends in Computing</h4>
+		<p><strong>I. Mainframe</strong> - many people share a computer</p>
+		<p><strong>II. Personal Computer</strong> - one computer, one person</p>
+		<p><strong>III. Internet</strong> - Widespread Distributed Computing	</p> 
+	
+	<p>. . . transition to . . .</p>
+		
+			<p><strong>IV. Ubiquitous Computing</strong> - many computers share each of us</p>
+	
+	<hr> 
+	
+	<h4>Phase I - The Mainframe Era</h4>
+
+	<p>The first era we call "mainframe", to recall the relationship people had with computers that were <i>mostly run by experts behind closed doors.</i></p>
+
+	<p>Anytime a computer is a scarce resource, and must be negotiated and shared with others, our relationship is that of the mainframe era. There is mainframe computing today: a shared office PC, and the great physical simulations of everything from weather to virtual reality, have in common sharing a scarce resource.</p> 
+
+	<p>If lots of people share a computer, <i>it is mainframe computing.</i></p>
+	
+	<hr> 
+	
+	<h4>Phase II - The PC Era</h4>
+	<p>The second great trend is that of the <strong>personal computer</strong>. In 1984 the number of people using personal computers surpassed the number of people using shared computers.[2] The personal computing relationship is personal, even intimate. You have your computer, it contains your stuff, and you interact directly and deeply with it. When doing personal computing you are occupied, you are not doing something else. Some people name their PC - many people curse or complain to their PC.</p>
+
+	<p>The personal computer is most analogous to the automobile - a special, relatively expensive item, that while it may "take you where you want to go", requires considerable attention to operate. And just as one can own several cars, one can own several personal computers: for home, for work, and for the road.</p>
+
+	<p>Any computer with which you have a special relationship, or that fully engages or occupies you when you use it, is a personal computer. Most handheld computers, such as the Zaurus, the Newton, or the Pilot, are today still used as personal computers. A $500 network computer is still a personal computer.</p>
+	
+	<hr> 
+
+	<h4>Transition - The Internet and Distributed Computing</h4>
+	<p>A lot has been written about the Internet and where it is leading. We will say only a little. The Internet is deeply influencing the business and practice of technology. Millions of new people and their information have become interconnected. Late at night, around 6am while falling asleep after twenty hours at the keyboard, the sensitive technologist can sometimes hear those 35 million web pages, 300 thousand hosts, and 90 million users shouting "pay attention to me!"</p>
+
+	<p>Interestingly, the Internet brings together elements of the mainframe era and the PC era. It is client-server computing on a massive scale, with web clients the PCs and web servers the mainframes (without the MIS department in charge). Although transitional, the Internet is a massive phenomena that calls to our best inventors, our most innovative financiers, and our largest multinational corporations. Over the next decade the results of the massive interconnection of personal, business, and government information will create a new field, a new medium, against which the next great relationship will emerge.</p>
+
+	<hr> 
+	
+	<h4>Phase III - The UC Era</h4>
+	<p>The third wave of computing is that of <strong>ubiquitous computing</strong>, whose cross-over point with personal computing will be around 2005-2020[3]. The "UC" era will have lots of computers sharing each of us. Some of these computers will be the hundreds we may access in the course of a few minutes of Internet browsing. Others will be imbedded in walls, chairs, clothing, light switches, cars - in everything. UC is fundamentally characterized by the connection of things in the world with computation. This will take place at a many scales, including the microscopic[4].</p>
+
+	<p>There is much talk today about "thin clients," meaning lightweight Internet access devices costing only a few hundred dollars. But UC will see the creation of thin servers, costing only tens of dollars or less, that put a full Internet server into every household appliance and piece of office equipment. The next generation Internet protocol, IPv6[5], can address more than a thousand devices for every atom on the earth's surface[6]. We will need them all.</p>
+
+	<p>The social impact of imbedded computers may be analogous to two other technologies that have become ubiquitous. The first is writing, which is found everywhere from clothes labels to billboards. The second is electricity, which surges invisibly through the walls of every home, office, and car. Writing and electricity become so commonplace, so unremarkable, that we forget their huge impact on everyday life. So it will be with UC.</p>
+
+	<p>Two harbingers of the coming UC era are found in the imbedded microprocessor, and the Internet. It is easy to find 40 microprocessors in a middle class home in the U.S.A. today. They will be found in the alarm clocks, the microwave oven, the TV remote controls, the stereo and TV system, the kid's toys, etc. These do not yet qualify as UC for two reasons: they are mostly used one at a time, and they are still masquerading as old-style devices like toasters and clocks. But network them together and they are an enabling technology for UC. Tie them to the Internet, and now you have connected together millions of information sources with hundreds of information delivery systems in your house. Clocks that find out the correct time after a power failure, microwave ovens that download new recipes, kids toys that are ever refreshed with new software and vocabularies, paint that cleans off dust and notifies you of intruders, walls that selectively dampen sounds, are just a few possibilities.</p>
+
+	<p>The UC will bring information technology beyond the big problems like corporate finance and school homework, to the little annoyances like Where are the car-keys, Can I get a parking place, and Is that shirt I saw last week at Macy's still on the rack? Many researchers are working towards this new era - among them our work at Xerox PARC, MIT's AI-oriented "Things That Think" program[7], the many mobile and wearable computing programs[8] (many funded by ARPA), and the many companies integrating computation into everyday objects, including Mattel and Disney.</p>
+
+	<p>What qualifies these as fundamental trends? First, they are about basic human relationships, and so are trends about what matters to us, what we cannot avoid. Second, they have the property of building upon one another. It is apparent that the mainframe relationship will never die completely away, nor the personal computing relationship. Each is used as a ground for the next trend, confirming its importance in its own mode of decline. Third, they are each bountiful sources of innovation, and have required reopening old assumptions, and re-appropriating old technology into new contexts.</p>
+
+	<p>It has been said many times that PC operating systems are about twenty years behind mainframe operating systems - but this statement misunderstands what happens in technological revolutions. The radically new context of the PC - uncontrolled room, uncontrolled third party software, uncontrolled power, third party hardware components, retail sales, low-cost requirements, frequent upgrades - meant that mainframe technologies required considerable adaptation. The era of ubiquitous computing is already starting to see old assumptions questioned top to bottom in computer systems design. For instance, our work on ubiquitous computers required us to introduce new progress metrics such as MIPS/Watt and Bits/Sec/M3. (After over a decade of stagnation, MIPS/Watt has improved over a hundred-fold in the past three years.) Research from radios to user interface, from hardware to theory, are impacted by the changed context of ubiquity.[9]</p>
+
+	<p>The most potentially interesting, challenging, and profound change implied by the ubiquitous computing era is a focus on calm. If computers are everywhere they better stay out of the way, and that means designing them so that the people being shared by the computers remain serene and in control. Calmness is a new challenge that UC brings to computing. When computers are used behind closed doors by experts, calmness is relevant to only a few. Computers for personal use have focused on the excitement of interaction. But when computers are all around, so that we want to compute while doing something else and have more time to be more fully human, we must radically rethink the goals, context and technology of the computer and all the other technology crowding into our lives. Calmness is a fundamental challenge for all technological design of the next fifty years. The rest of this paper opens a dialogue about the design of calm technology.</p>
+	
+	<hr> 
+	
+	<h3>Calm Technology</h3>
+	<p>Designs that encalm and inform meet two human needs not usually met together. Information technology is more often the enemy of calm. Pagers, cellphones, news-services, the World-Wide-Web, email, TV, and radio bombard us frenetically. Can we really look to technology itself for a solution?</p>
+
+	<p>But some technology does lead to true calm and comfort. There is no less technology involved in a comfortable pair of shoes, in a fine writing pen, or in delivering the New York Times on a Sunday morning, than in a home PC. Why is one often enraging, the others frequently encalming? We believe the difference is in how they engage our attention. <strong>Calm technology engages both the center and the periphery of our attention, and in fact moves back and forth between the two.</strong></p>
+	
+	<hr> 
+	
+
+	<h3>The Periphery</h3>
+	<p><strong>We use "periphery" to name what we are attuned to without attending to explicitly.</strong>[10] Ordinarily when driving our attention is centered on the road, the radio, our passenger, but not the noise of the engine. But <strong>an unusual noise is noticed immediately, showing that we were attuned to the noise in the periphery, and could come quickly to attend to it</strong>.</p>
+
+	<p>It should be clear that what we mean by the periphery is anything but on the fringe or unimportant. What is in the periphery at one moment may in the next moment come to be at the center of our attention and so be crucial. The same physical form may even have elements in both the center and periphery. The ink that communicates the central words of a text also peripherally clues us into the genre of the text though choice of font and layout.</p>
+
+	<p>A calm technology will move easily from the periphery of our attention, to the center, and back. This is fundamentally encalming, for two reasons:</p>
+
+	<p>First, by placing things in the periphery we are able to attune to many more things than we could if everything had to be at the center. Things in the periphery are attuned to by the large portion of our brains devoted to peripheral (sensory) processing. Thus the periphery is informing without overburdening.</p>
+
+	<p>Second, by recentering something formerly in the periphery we take control of it. Peripherally we may become aware that something is not quite right, as when awkward sentences leave a reader tired and discomforted without knowing why. By moving sentence construction from periphery to center we are empowered to act, either by finding better literature or accepting the source of the unease and continuing. Without centering the periphery might be a source of frantic following of fashion; with centering the periphery is a fundamental enabler of calm through increased awareness and power.</p>
+
+	<p>Not all technology need be calm. A calm videogame would get little use; the point is to be excited. But too much design focuses on the object itself and its surface features without regard for context. We must learn to design for the periphery so that we can most fully command technology without being dominated by it.</p>
+
+	<p>Our notion of technology in the periphery is related to the notion of affordances, due to Gibson[11] and applied to technology by Gaver[12] and Norman[13]. An affordance is a relationship between an object in the world and the intentions, perceptions, and capabilities of a person. The side of a door that only pushes out affords this action by offering a flat pushplate. The idea of affordance, powerful as it is, tends to describe the surface of a design. For us the term "affordance" does not reach far enough into the periphery where a design must be attuned to but not attended to.</p>
+
+	<hr> 
+	
+	<h3>Three Signs of Calm Technology</h3>
+	<p><strong>Technologies encalm as they empower our periphery</strong>. This happens in two ways. First, as already mentioned, a calming technology may be one that easily moves from center to periphery and back. Second, a technology may enhance our peripheral reach by bringing more details into the periphery. An example is a video conference that, by comparison to a telephone conference, enables us to attune to nuances of body posture and facial
+	expression that would otherwise be inaccessible. This is encalming when the enhanced peripheral reach increases our knowledge and so our ability to act without increasing information overload.<p>
+
+	<p><strong>The result of calm technology is to put us at home, in a familiar place</strong>. When our periphery is functioning well we are tuned into what is happening around us, and so also to what is going to happen, and what has just happened. This is a key property of information visualization techniques like the cone tree,[14] that are filled with detail yet engage our pre-attentive periphery so we are never surprised. The periphery connects us effortlessly to a myriad of familiar details. This connection to the world we called "locatedness", and it is the fundamental gift that the periphery gives us.<p>
+
+	<hr> 
+	
+	<h4>Examples of Calm Technology</h4>
+	<p>We now consider a few designs in terms of their motion between center and periphery, peripheral reach, and locatedness. Below we consider inner office windows, Internet Multicast, and the Dangling String.<p>
+
+<hr> 
+
+	<h4>Inner Office Windows</h4>
+	<p>We do not know who invented the concept of glass windows from offices out to hallways. But these inner windows are a beautifully simple design that enhances peripheral reach and locatedness.</p>
+
+	<p>The hallway window extends our periphery by creating a two-way channel for clues about the environment. Whether it is motion of other people down the hall (its time for a lunch; the big meeting is starting), or noticing the same person peeking in for the third time while you are on the phone (they really want to see me; I forgot an appointment), the window connects the person inside to the nearby world.</p>
+	
+	<p>Inner windows also connect with those who are outside the office. A light shining out into the hall means someone is working late; someone picking up their office means this might be a good time for a casual chat. These small clues become part of the periphery of a calm and comfortable workplace.</p>
+
+	<p>Office windows illustrate a fundamental property of motion between center and periphery. Contrast them with an open office plan in which desks are separated only by low or no partitions. Open offices force too much to the center. For example, a person hanging out near an open cubicle demands attention by social conventions of privacy and politeness.</p>
+
+	<p>There is less opportunity for the subtle clue of peeking through a window without eavesdropping on a conversation. The individual, not the environment, must be in charge of moving things from center to periphery and back.</p>
+
+	<p>The inner office window is a metaphor for what is most exciting about the Internet, namely the ability to locate and be located by people passing by on the information highway, while retaining partial control of the context, timing, and use of the information thereby obtained.</p>
+	
+	<hr> 
+
+	<h4>Internet Multicast</h4>
+	<p>A technology called Internet Multicast[15] may become the next World Wide Web (WWW) phenomenon. Sometimes called the MBone (for Multicast backBONE), multicasting was invented by a then graduate student at Stanford University, Steve Deering.</p>
+
+	<p>Whereas the World Wide Web (WWW) connects only two computers at a time, and then only for the few moments that information is being downloaded, the MBone continuously connects many computers at the same time. To use the familiar highway metaphor, for any one person the WWW only lets one car on the road at a time, and it must travel straight to its destination with no stops or side trips. By contrast, the MBone opens up streams of traffic between multiple people and so enables the flow of activities that constitute a neighborhood. Where a WWW browser ventures timidly to one location at a time before scurrying back home again a few milliseconds later, the MBone sustains ongoing relationships between machines, places, and people.</p>
+
+	<p>Multicast is fundamentally about increasing peripheral reach, derived from its ability to cheaply support multiple multimedia (video, audio, etc.) connections all day long. Continuous video from another place is no longer television, and no longer video-conferencing, but more like a window of awareness. A continuous video stream brings new details into the periphery: the room is cleaned up, something important may be about to happen; everyone got in late today on the east coast, must be a big snowstorm or traffic tie-up.</p>
+
+	<p>Multicast shares with videoconferencing and television an increased opportunity to attune to additional details. Compared to a telephone or fax, the broader channel of full multimedia better projects the person through the wire. The presence is enhanced by the responsiveness that full two-way (or multiway) interaction brings.</p>
+
+	<p>Like the inner windows, Multicast enables control of the periphery to remain with the individual, not the environment. A properly designed real-time Multicast tool will offer, but not demand. The MBone provides the necessary partial separation for moving between center and periphery that a high bandwidth world alone does not. Less is more, when less bandwidth provides more calmness.</p>
+
+	<p>Multicast at the moment is not an easy technology to use, and only a few applications have been developed by some very smart people. This could also be said of the digital computer in 1945, and of the Internet in 1975. Multicast in our periphery will utterly change our world over the next fifty years.</p>
+
+<hr>
+
+	<h4>Dangling String</h4>
+	<p>Bits flowing through the wires of a computer network are ordinarily invisible. But a radically new tool shows those bits through motion, sound, and even touch. It communicates both light and heavy network traffic. Its output is so beautifully integrated with human information processing that one does not even need to be looking at it or be very near to it to take advantage of its peripheral clues. It takes no space on your existing computer screen, and in fact does not use or contain a computer at all. It uses no software, only a few dollars in hardware, and can be shared by many people at the same time. It is called the "Dangling String".</p>
+
+	<p>Created by artist Natalie Jeremijenko, the "Dangling String" is an 8 foot piece of plastic spaghetti that hangs from a small electric motor mounted in the ceiling. The motor is electrically connected to a nearby Ethernet cable, so that each bit of information that goes past causes a tiny twitch of the motor. A very busy network causes a madly whirling string with a characteristic noise; a quiet network causes only a small twitch every few seconds. Placed in an unused corner of a hallway, the long string is visible and audible from many offices without being obtrusive. It is fun and useful. At first it creates a new center of attention just by being unique. But this center soon becomes peripheral as the gentle waving of the string moves easily to the background. That the string can be both seen and heard helps by increasing the clues for peripheral attunement.</p>
+
+	<p>The dangling string increases our peripheral reach to the formerly inaccessible network traffic. While screen displays of traffic are common, their symbols require interpretation and attention, and do not peripheralize well. The string, in part because it is actually in the physical world, has a better impedance match with our brain's peripheral nerve centers.</p>
+
+	
+	<hr> 
+	
+
+	<h3>In Conclusion</h3>
+	<p>It seems contradictory to say, in the face of frequent complaints about information overload, that more information could be encalming. It seems almost nonsensical to say that the way to become attuned to more information is to attend to it less. It is these apparently bizarre features that may account for why so few designs properly take into account center and periphery to achieve an increased sense of locatedness. But such designs are crucial as we move into the era of ubiquitous computing. As we learn to design calm technology, we will enrich not only our space of artifacts, but also our opportunities for being with other people. When our world is filled with interconnected, imbedded computers, calm technology will play a central role in a more humanly empowered twenty-first century.</p>
+
+	
+	<hr> 
+	
+	<h3>References</h3>
+	<p>[1] This paper is a revised version of: Weiser & Brown. "Designing Calm Technology", PowerGrid Journal, v 1.01, http://powergrid.electriciti.com/1.01 (July 1996).</p>
+
+	<p>[2] IDC. "Transition to the Information Highway Era" in 1995-96 Information Industry and Technology Update.p. 2.</p>
+
+	<p>[3] IDC. Ibid.</p>
+
+	<p>[4] Gabriel, K. "Engineering Microscopic Machines." Scientific American, Sept. 1995, Vol. 273, No. 3, pp. 118-121.</p>
+
+	<p>[5] Deering, S. Hinden, R. "IPv6 Specification" http://ds.internic.net/rfc/rfc1883.txt, December 1995</p>
+
+	<p>[6] Bolt, S. http://www2.wvitcoe.wvnet.edu/~sbolt/ip-density.html</p>
+
+	<p>[7] MIT Media Lab. "Things That Think." http://ttt.www.media.mit.edu/</p>
+
+	<p>[8] Watson, Terri. "Mobile and Wireless Computing." http://snapple.cs.washington.edu:600/mobile/mobile_www.html</p>
+
+	<p>[9] Weiser, M. "Some Computer Science Problems in Ubiquitous Computing," Communications of the ACM, July 1993.</p>
+
+	<p>[10] Brown, J.S. and Duguid, P. Keeping It Simple: Investigating Resources in the Periphery Solving the Software Puzzle. Ed. T. Winograd, Stanford University.</p>
+
+	<p>[11] Gibson, J. The Ecological Approach to Visual Perception. New York: Houghton Mifflin, 1979.</p>
+
+	<p>[12] Gaver, W.W. "Auditory Icons: Using Sound in Computer Interfaces" J. Human-Computer Interaction. v2n2. 1986. pp. 167-177</p>
+
+	<p>[13] Norman, D.A.. The Psychology of Everyday Things. New York: Basic Books, 1988.</p>
+
+	<p>[14] Robertson, G.G. MacKinlay, J.D. and Card, S.K. "Cone trees: Animated 3D visualizations of hierarchical information." In HCI 91, pages 189-194, 1991.</p>
+
+	<p>[15] Kumar, Vinay, "MBone: Interactive Multimedia On The Internet", Macmillan Publishing, November 1995.</p>
+
+</div>
+
+<div style="clear:both">
+
+<hr> 
+
+<p class="hero-text">CalmTechnology.com is written and maintained by <a href="http://caseorganic.com">Caseorganic.com</a>.</p>
+
+</div>
+</div> 
+
+</body>
+
+</html>

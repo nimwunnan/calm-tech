@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>Calm Technology Exercises</title>
+  <link type="text/css" rel="stylesheet" href="/style.css">
+	<link type="text/css" rel="stylesheet" href="/bootstrap-2.2.2/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="/bootstrap-2.2.2/css/bootstrap-responsive.min.css">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+<body>
+
+	   <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Calmtech.com</a>
+		      <ul class="nav">
+            <li><a href="/about">About</a></li>
+            <li><a href="/book">Book</a></li>
+            <li><a href="/exercises">Exercises</a></li>
+            <li><a href="/papers">Papers</a></li>
+            <li><a href="/press">Press</a></li>
+
+          </ul>
+          <ul class="nav pull-right">
+            <li><a href="/feedback">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid container-narrow">
+
+<div class="row-fluid">
+	
+<!-- BEGIN INTRO SECTION -->
+
+<div style="padding:25px 25px 25px 25px;">
+
+<div>
+<p class="hero-text-bold">Feedback!</p>
+<p class="hero-text">I'd love to hear what you think of the site! Please fill out the form below and I'll read your message with great enthusiasm.</p>
+
+</div>
+
+<div class ="span8">
+
+<hr style="border: 1px dashed #eee;" />
+
+<iframe src="https://docs.google.com/forms/d/1KgvPRfcb4eCiWVW_mfDJXMFnW2QZjZWUWWctiwioXnI/viewform?embedded=true" width="760" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+</div>
+
+<div style="clear:both"></div>
+
+
+ <!-- End Media Item with Image! -->
+
+<br><br><br>
+
+
+            <hr style="border: 1px dashed #eee;" />
+
+            <center><p class="hero-text-bold"><a href="/papers/">Papers</a></center>	
+            
+            <hr style="border: 1px dashed #eee;" />
+            
+            <center><p class="hero-text-bold"><a href="/book/">Book</a></center>	
+            
+            <hr style="border: 1px dashed #eee;" />
+
+            <center><p class="hero-text-bold"><a href="/exercises/">Exercises</a></center>
+            
+            <hr style="border: 1px dashed #eee;" />
+            
+            <center><p class="hero-text-bold"><a href="/presentations/">Presentations</a></center>
+            
+            <hr style="border: 1px dashed #eee;" />
+            
+            <center><p class="hero-text-bold"><a href="/press/">Press</a></center>	
+            <hr style="border: 1px dashed #eee;" />
+
+<br>
+
+<center><p class="hero-text-bold">Have something to add? <a href="/feedback">Get in touch!</a></p></center>	
+
+<br>
+
+</div>
+<hr> 
+
+<center><p class="hero-text">CalmTechnology.com is written and maintained by <a href="http://caseorganic.com">Caseorganic.com</a>.</p></center> 
+
+<hr> 
+
+</body>
+
+</html>
