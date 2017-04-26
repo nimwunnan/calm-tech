@@ -1,0 +1,64 @@
+#logo {
+      font-family: helvetica;
+      font-weight: 100;
+      font-size: 38px;
+      line-height: 36px;
+      border: dotted 4px #a1d7d4;
+      border-radius: 5px;
+      width: 130px;
+      height: 80px;
+      padding: 25px 15px 15px 0px;
+      text-decoration: none;
+      color: #a1d7d4;
+    }
+
+h1, h2, h3, h4, h5 {
+  letter-spacing: 1px;
+}
+
+body {
+  font-size: 17px;
+  font-family: 'Didact Gothic', serif;
+}
+
+p {
+  font-size: 1em; /* 14px */
+  line-height: 1.3em; /* 20px */
+  /*margin: 1.4286em 0 0 0;*/
+}
+/* 30px - The quick brown fox jumps over the lazy dog */
+.hero-text-title, .class-for-30px {
+  font-size: 2.1429em; /* 30px */
+  line-height: 1.3333em; /* 40px */
+  margin-top: 0.6667em;  margin-bottom: 0.0000em;
+}
+/* 24px - The quick brown fox jumps over the lazy dog */
+.class-for-24px {
+  font-size: 1.7143em; /* 24px */
+  line-height: 1.6667em; /* 40px */
+  margin-top: 0.8333em;  margin-bottom: 0.0000em;
+}
+/* 22px - The quick brown fox jumps over the lazy dog */
+h3.header-text, .class-for-22px {
+  font-size: 1.5714em; /* 22px */
+  line-height: 1.8182em; /* 40px */
+  margin-top: 0.9091em;  margin-bottom: 0.0000em;
+}
+/* 21px - The quick brown fox jumps over the lazy dog */
+h4.media-heading, .class-for-21px {
+    font-size: 1.5000em;
+    line-height: 1.6em;
+    margin-top: 0.9524em;
+    margin-bottom: 0.0000em;
+    max-width: 95%;
+}
+/* 18px - The quick brown fox jumps over the lazy dog */
+.class-for-18px {
+  font-size: 1.2857em; /* 18px */
+  line-height: 1.1111em; /* 20px */
+  margin-top: 1.1111em;  margin-bottom: 0.0000em;
+}
+/* 14px - The quick brown fox jumps over the lazy dog */
+p, .media-body p {
+  font-size: 1.0000em; /* 14px */
+}

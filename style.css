@@ -1,12 +1,12 @@
 *{
 
-	font-family: 'Noticia Text', serif;
+	font-family: 'Didact Gothic', serif;
 }
 
 body{ 
 
   overflow-x: hidden;
-  font-family: 'Noticia Text', serif;
+  font-family: 'Didact Gothic', serif;
 }
 
 .brand{
@@ -14,61 +14,68 @@ body{
     color: white;
 }
 
-h3.header-text{
+h3.header-text {
 
-	font-size: 2.5em;
+/*	font-size: 2.5em;
 	font-weight: 200;
-	margin-bottom: -5px;
-	font-family: 'Noticia Text', serif;
+	margin-bottom: -5px;*/
+	font-family: 'Didact Gothic', serif;
 }
 
-h4.media-heading{
+h4.media-heading { 
 
-	font-size: 21px;
+/*	font-size: 21px;
 	font-weight: 200;
 	letter-spacing: 1px;
 	line-height: 120%;
-    padding-bottom: 3%;
+    padding-bottom: 3%;*/
 }
 
-.media-body p{
+.media-body p {
 
-	font-size: 110%;
+/*	font-size: 110%;
 	font-weight: 200;
 	margin-left: 20px;
     letter-spacing: 1.2px;
-    word-spacing: -2px;	
+    word-spacing: -2px;	*/
+    margin-left: 10px;
 }
 
-.media-box{
+.media-box {
 
 	margin: 2%;
-	padding:5%;
-	background: #262626;
-	color: ghostwhite;
+	padding:0px 20%;
+	color: #262626;
 	border-radius: 1.5px;
+}
+
+.media-box .media-list {
+    padding-bottom: 25px;
+    border-bottom: 3px dashed #a1d7d4;
+    width: 100%%;
+    padding-left: 15px;
 }
 
 .hero-text-title {
 
-  font-size: 154%;
+/*  font-size: 154%;
   letter-spacing: normal;
   font-weight: normal;
-  line-height: 1.2;
+  line-height: 1.2;*/
   color: #262626;
 }
 .hero-text {
 
-	font-family: 'Noticia Text', serif;
+/*	font-family: 'Didact Gothic', serif;
 	font-size:18px;
 	line-height:25px;
-	font-weight:200;
+	font-weight:200;*/
 }
 .hero-text-bold {
-
+/*
 	font-size:20px;
 	line-height:27px;
-	font-weight:200;
+	font-weight:200;*/
 }
 
 
