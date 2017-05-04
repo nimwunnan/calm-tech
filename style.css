@@ -56,6 +56,10 @@ h4.media-heading {
     padding-left: 15px;
 }
 
+.media .pull-left {
+  padding: 30px 30px 0px 0px;
+}
+
 .hero-text-title {
 
 /*  font-size: 154%;
