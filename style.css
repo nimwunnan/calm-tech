@@ -24,20 +24,20 @@ h3.header-text {
 
 h4.media-heading { 
 
-/*	font-size: 21px;
+	font-size: 21px;
 	font-weight: 200;
 	letter-spacing: 1px;
 	line-height: 120%;
-    padding-bottom: 3%;*/
+    padding-bottom: 3%;
 }
 
 .media-body p {
 
-/*	font-size: 110%;
+	font-size: 110%;
 	font-weight: 200;
 	margin-left: 20px;
     letter-spacing: 1.2px;
-    word-spacing: -2px;	*/
+    word-spacing: -2px;	
     margin-left: 10px;
 }
 
@@ -87,7 +87,7 @@ h4.media-heading {
 .navbar {
   width: 100%;
   float: left;
-  background-color: black;
+  background-color: #a1d7d4;
   height: 45px;
   padding-top: 10px;
   padding-left: 40px;
@@ -101,27 +101,98 @@ h4.media-heading {
 nav ul li {
   float: left;
   margin-left: 40px;
+}
 
+nav ul li a {
+  color: white;
 }
 
 /*---*/
 
+/*######################## new ########################*/
+header {
+  width: 100%;
+  float: left;
+  clear: both;
+  padding: 0px 5%;
+}
 
+#logo {
+      font-family: helvetica;
+      font-weight: 100;
+      font-size: 38px;
+      line-height: 36px;
+      border: dotted 4px #a1d7d4;
+      border-radius: 5px;
+      width: 130px;
+      height: 130px;
+      padding: 25px 15px 15px 0px;
+      text-decoration: none;
+      color: #a1d7d4;
+      float: left;
+      margin: 30px;
+    }
+#hero {
+  width: 100%;
+}
 #principles-list > ol {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
 #principles-list ol li {
-  float: left;
+   clear: left;
+    font-weight: 800;
+    padding: 40px 10% 20px;
+    list-style-position: inside;
+}
+
+#principles-list ol li ol li {
+  font-weight: 100;
+  border-bottom: none;
+  padding: 10px 10px;
 }
 
 .header-text {
   width: 100%;
   float: left;
   clear: both;
+  margin: 40px 0px;
 }
 
+footer {
+  padding: 40px;
+  width: 100%;
+  float: left;
+  border-top: dotted 4px #a1d7d4;
+}
+
+hr {   
+  width: 100%;
+  float: left;
+}
+
+.calm-tech-example {
+  padding: 40px 0px 20px;
+}
+
+.calm-tech-example h4 {
+  margin-top: 0px;
+}
+/* border style */
+
+hr, .calm-tech-example, #principles-list ol li {
+  border-bottom: dotted 4px #a1d7d4;
+}
+
+.calm-tech-example:last-child {
+  border-bottom: none;
+}
+
+section {
+  margin:20px 0px;
+}
+/*######################## mobile ########################*/
 /*Mobile Nav*/
 
 
@@ -139,13 +210,12 @@ nav ul li {
   	.navbar{
   		display:none;
   	}
-    li{
+    ul li {
       list-style-type: none;
     }
 
     a{
       text-decoration: none;
-      color: lightgrey;
     }
     #panel, #flip {
         width: 95%;
