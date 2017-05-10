@@ -110,7 +110,10 @@ nav ul li {
 #principles-list > ol {
   width: 80%;
   margin: auto;
+}
 
+#principles-list ol li {
+  float: left;
 }
 
 .header-text {
