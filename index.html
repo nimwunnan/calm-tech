@@ -4,11 +4,12 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Calm Technology</title>
-	  <link type="text/css" rel="stylesheet" href="style.css">
-		<link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap.min.css">
+<!-- 		<link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap.min.css">
 		<link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap-responsive.min.css">
+ -->
+ 	<link rel="stylesheet" type="text/css" href="html-starter-scaffold.css">
+	  <link type="text/css" rel="stylesheet" href="style.css">
 
- 	<!-- <link rel="stylesheet" type="text/css" href="html-starter-scaffold.css"> -->
  <meta name="viewport" content="width=device-width,initial-scale=1">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 		<script type="text/javascript" src="menu.js"></script>
@@ -56,7 +57,7 @@
 			</div>
 		<!-- END MOBILE NAV -->
 
-<div class="container-narrow">
+		<header class="wrap wrap--guttered maxwidth maxwidth--xl">
 		<!-- HEADER  -->
 			<div class="span12">							
 			    <a id="logo" class="pull-left" align="center">
@@ -72,10 +73,11 @@
 						<p class="hero-text">Equally important is the design of communication. How many are notifications are necessary? How and when should they be displayed? To answer this, we can be inspired by the principles of <strong>calm technology.</strong><sup>1</sup></p>
 					</div>
 			</div>
+		</header>
 		<!-- / HEADER  -->
 
 		<!-- BEGIN PRINCIPLES SECTION -->
-		<section id="principles" class="media-box span12">
+		<section id="principles" class="wrap wrap--guttered maxwidth maxwidth--xl">
 			<h1 class="header-text">Principles of Calm Technology</h1>
 			<div id="principles-list" class="span9">
 				<ol type="I" class="span12" style="margin-left:auto; margin-right:auto;">
@@ -170,29 +172,32 @@
 
 		<!-- BEGIN EXAMPLE SECTION -->
 
-		<section id="examples" class="media-box span12">
+		<section id="examples" class="wrap wrap--guttered maxwidth maxwidth--xl">
 			<h3 class="header-text"><center>Examples</center></h3>
 
+			<div class="grid grid--guttered calm-tech-example">
 
+				<div class="grid__cell grid__cell--m--1-6">
 			<!-- calm tech example -->
-				<div class="span9 calm-tech-example">
-			        <a class="pull-left" align="center">
+<!-- 				<div class="span9 calm-tech-example">
+ -->			        <a class="pull-left" align="center">
 			          <img class="media-object" src="images/products/tea-kettle-example-calm-technology.png" alt="Tea Kettle Calm Technology">
 			        </a>
-			        <div class="media-body">
+			  </div>
+	       <div class="media-body grid__cell--m--4-5" style="float:right;">
 			          <h4>Tea Kettle</h4>
 			          <p>If a technology works well, we can ignore it most of the time. A teapot tells us when it is ready, and is off or quiet the rest of the time. A tea kettle can be set and forgotten, until it sings. It does not draw constant attention to itself until necessary.</p>
-			        </div>
+	        </div>
 			  </div>
 
 				<!-- end calm tech example -->
 				<!-- calm tech example -->
 
-				<div class="span9">
-				  <a class="pull-left" align="center">
+				<div class="grid__cell--m--1-2">
+				  <a class="" align="center">
 				    <img class="media-object" src="images/products/inner-office-window-example-calm-technology.png" alt="Inner Office Window Calm Technology">
 				  </a>
-				  <div class="media-body">
+				  <div class="grid__cell--m--1-2">
 				    <h4>Inner Office Window</h4>
 				    <p>An inner office window provides an understanding of whether someone is busy or not without the need to interrupt them.</p>
 				  </div>

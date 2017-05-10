@@ -82,10 +82,46 @@ h4.media-heading {
 	font-weight:200;*/
 }
 
+/* Nav */
+
+.navbar {
+  width: 100%;
+  float: left;
+  background-color: black;
+  height: 45px;
+  padding-top: 10px;
+  padding-left: 40px;
+  margin-bottom: 10vh;
+}
+
+.navbar .brand {
+  float: left;
+  margin-right: 40px;
+}
+nav ul li {
+  float: left;
+  margin-left: 40px;
+
+}
 
 /*---*/
 
+
+#principles-list > ol {
+  width: 80%;
+  margin: auto;
+
+}
+
+.header-text {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
 /*Mobile Nav*/
+
+
 
 /*---*/
 
