@@ -1,157 +1,141 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-	<meta charset="utf-8">
-	<title>Calm Technology</title>
-  <link type="text/css" rel="stylesheet" href="style.css">
-	<link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap.min.css">
-	<link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap-responsive.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script type="text/javascript" src="menu.js"></script>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  </head>
   
-<body>
-    <div class="navbar navbar-inverse">
+<!-- head  -->
+  <head>
+    <meta charset="utf-8">
+    <title>Calm Technology</title>
+<!--    <link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap-responsive.min.css">
+ -->
+  <link rel="stylesheet" type="text/css" href="html-starter-scaffold.css">
+      <link type="text/css" rel="stylesheet" href="style.css">
+
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="type.css">
+    <meta name="description" content="Calm technology is maintained by Amber Case"/>
+  </head>
+<!-- end head -->
+
+  <body style="overflow-x: hidden;">
+    
+
+    <!--MAIN NAV BAR--> 
+     <div class="navbar">
       <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="index.html">Calmtech.com</a>
-		      <ul class="nav">
+      <a class="brand" href="index.html">Calmtech.com</a>
+        <nav class="container">
+          <ul class="nav">
             <li><a href="about.html">About</a></li>
             <li><a href="book.html">Book</a></li>
             <li><a href="exercises.html">Exercises</a></li>
             <li><a href="papers.html">Papers</a></li>
             <li><a href="press.html">Press</a></li>
-
-          </ul>
-          <ul class="nav pull-right">
             <li><a href="feedback.html">Contact</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
     </div>
-    
-  <!-- MOBILE NAV BAR -->
-    <div id="flip">=</div>
-    <div id="panel">
-      <ul>
-        <li><a class="brand" href="index.html">Calm<strong>tech</strong>.com</a></li>
-        <br>        
-        <li><a href="about.html">About</a></li>
-        <li><a href="book.html">Book</a></li>
-        <li><a href="exercises.html">Exercises</a></li>
-        <li><a href="papers.html">Papers</a></li>
-        <li><a href="press.html">Press</a></li>
-        <br>
-        <li><a href="feedback.html">Contact</a></li>
-    </div>    
+    <!-- end main nav -->
 
-<div class="container-fluid container-narrow">
+    <!-- MOBILE NAV BAR -->
+    <div id="mobile-nav">
+    <div id="flip"><hr></div>
+      <div id="panel">
+        <ul>
+          <li><a class="brand" href="index.html">Calm<strong>tech</strong>.com</a></li>
+          <br>      
+          <li><a href="about.html">About</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="exercises.html">Exercises</a></li>
+          <li><a href="papers.html">Papers</a></li>
+          <li><a href="press.html">Press</a></li>
+          <br>
+          <li><a href="feedback.html">Contact</a></li>
+          </ul>
+      </div>
+      </div>
+    <!-- END MOBILE NAV -->
 
-<div class="row-fluid">
-	
-<!-- BEGIN INTRO SECTION -->
+    <!-- ########################  -->
+<section class="wrap wrap--guttered maxwidth maxwidth--xl">
+      <div class="grid grid--guttered">
+        <h1>About</h1>
 
-<div style="padding:25px 25px 25px 25px;">
+      <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-1 grid__cell--xl--1-1 grid__cell--xxl--1-1">
+       <blockquote>
+          <p class="hero-text-bold">The terms <strong>&ldquo;calm computing&rdquo;</strong> and <strong>&ldquo;calm technology&rdquo;</strong> were coined in 1995 by PARC Researchers Mark Weiser and John Seely Brown in reaction to the increasing complexities that information technologies were creating. He felt that the promise of computing systems was that they might &ldquo;simplify complexities, not introduce new ones.&rdquo;<sup>1</sup></p>
 
-		<blockquote>
+          <p class="hero-text-bold"><br>Weiser believed that this would lead to an era of &ldquo;calm technology,&rdquo; in which technology, rather than <strong>panicking us</strong>, would help us focus on the things that were really <strong>important to us.</strong><sup>2</sup></p>
 
-			<p class="hero-text-bold">The terms <strong>&ldquo;calm computing&rdquo;</strong> and <strong>&ldquo;calm technology&rdquo;</strong> were coined in 1995 by PARC Researchers Mark Weiser and John Seely Brown in reaction to the increasing complexities that information technologies were creating. He felt that the promise of computing systems was that they might &ldquo;simplify complexities, not introduce new ones.&rdquo;<sup>1</sup></p>
+          <p class="hero-text-bold"><br>The work of <a href="https://www.calmtech.com/people">Mark Weiser</a>, <a href="https://www.calmtech.com/people">Rich Gold</a> and <a href="https://www.calmtech.com/people">John Seeley Brown</a> was the primary inspiration for this site. Their work can help us understand what we need to implement to handle the increasing complexity of the world.</p>
 
-			<p class="hero-text-bold"><br>Weiser believed that this would lead to an era of &ldquo;calm technology,&rdquo; in which technology, rather than <strong>panicking us</strong>, would help us focus on the things that were really <strong>important to us.</strong><sup>2</sup></p>
+          <p class="hero-text-bold"><br>These three individuals were at the beginning of exploring how our everyday lives would work in the future. Together and with others at Xerox PARC they explored the future of the interface, society and created a miniature implementation of the future. It is my mission to carry on the design philosophy of these individuals for the next generation. Not only were they ahead of their time, but they wrote about the era of ubiquitous computing we now find ourselves in.</p>
+          <p class="hero-text-bold"><br><i>-<a href="http://caseorganic.com/">@caseorganic</a>, 2014</i></p></blockquote>
+      </div>
+  </section>
 
-			<p class="hero-text-bold"><br>The work of <a href="https://www.calmtech.com/people">Mark Weiser</a>, <a href="https://www.calmtech.com/people">Rich Gold</a> and <a href="https://www.calmtech.com/people">John Seeley Brown</a> was the primary inspiration for this site. Their work can help us understand what we need to implement to handle the increasing complexity of the world.</p>
+  <section class="wrap wrap--guttered maxwidth maxwidth--xl">
+    <div class="grid grid--guttered">
+      <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-2 grid__cell--xl--1-2 grid__cell--xxl--1-2">
+          <p class="hero-text-bold">Mark Weiser</p>
+          <img src="images/mark-weiser.jpg" align="right" style="padding:0px 25px;">
+          <p class="hero-text">Mark Weiser was the chief technology officer at Xerox’s Palo Alto Research Center (Parc). He is often referred to as the father of ubiquitous computing. He coined the term in 1988 to describe a future in which invisible computers, embedded in everyday objects, replace PCs. Other research interests included garbage collection, operating systems, and user interface design. </p>
 
-			<p class="hero-text-bold"><br>These three individuals were at the beginning of exploring how our everyday lives would work in the future. Together and with others at Xerox PARC they explored the future of the interface, society and created a miniature implementation of the future. It is my mission to carry on the design philosophy of these individuals for the next generation. Not only were they ahead of their time, but they wrote about the era of ubiquitous computing we now find ourselves in.</p>
+          <p class="hero-text">Weiser wrote or co-wrote over 75 technical publications on such subjects as the psychology of programming, program slicing, operating systems, programming environments, garbage collection, and technological ethics. He was a member of the ACM, IEEE Computer Society, and American Association for the Advancement of Science. Weiser passed away in 1999. </p>
+      </div>
+      <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-2 grid__cell--xl--1-2 grid__cell--xxl--1-2">
 
-			<p class="hero-text-bold"><br><i>-<a href="http://caseorganic.com/">@caseorganic</a>, 2014</i></p></blockquote>
-		
-    <div style ="clear:both"></div>
+          <p class="hero-text-bold">Rich Gold</p>
+          <img src="images/rich-gold.jpg" align="right" style="padding:0px 25px;">
+          <p class="hero-text">Rich Gold was a composer, cartoonist, artist and researcher who holds ten patents. At Sega he invented &ldquo;Little Computer People&rdquo;  (Activision), the first fully autonomous commercially-available computerized person. At Mattel Toys he was the manager of the PowerGlove.</p>
 
+          <p class="hero-text">Gold joined Xerox PARC in the early nineties, where he was a researcher in Ubiquitous Computing. In 1994, he created and ran the PARC artist-in-residence program (PAIR), which paired fine artists and scientists together based on shared technologies. He was also the manager of RED (Research in Experimental Documents) at Xerox PARC, which looks at the creation of new document genres by merging art, design, science and engineering.</p>
 
-<hr style="border: 1px dashed #eee;" />
+          <p class="hero-text">Gold was a provocative speaker who lectured throughout the world on the future of the book, 
+          the nature of engineering, creativity, innovation and Evocative Knowledge Objects (EKOs). Rich passed away in his sleep on January 9, 2003.</p>
 
-<div class="span5">
-<p class="hero-text-bold">Mark Weiser</p>
-<img src="images/mark-weiser.jpg" align="right" style="padding:0px 25px;">
-<p class="hero-text">Mark Weiser was the chief technology officer at Xerox’s Palo Alto Research Center (Parc). He is often referred to as the father of ubiquitous computing. He coined the term in 1988 to describe a future in which invisible computers, embedded in everyday objects, replace PCs. Other research interests included garbage collection, operating systems, and user interface design. 
+          <p class="hero-text">You can still see Rich Gold's webpage from 2002 on <a href="http://web.archive.org/web/20020604020041/http://www.richgold.org/">The Internet Archive.</a></p>
+      </div>
 
-<p class="hero-text">Weiser wrote or co-wrote over 75 technical publications on such subjects as the psychology of programming, program slicing, operating systems, programming environments, garbage collection, and technological ethics. He was a member of the ACM, IEEE Computer Society, and American Association for the Advancement of Science. Weiser passed away in 1999. 
+      <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-2 grid__cell--xl--1-2 grid__cell--xxl--1-2">
+      <p class="hero-text-bold">John Seeley Brown</p>
+          <img src="images/john-seeley-brown.jpg" align="right" style="padding:0px 25px;">
+          <p class="hero-text">For nearly two decades, <a href="http://www.johnseelybrown.com/">John Seely Brown</a> served as Chief Scientist of Xerox Corporation and the director of its Palo Alto Research Center (PARC).</p> 
 
-<hr style="border: 1px dashed #eee;" />
+          <p class="hero-text">Brown expanded PARC's research to include new topics like radical innovation, organizational learning, complex adaptive systems, and nano technologies.  His personal research interests include digital youth culture, digital media and institutional innovation.</p>
+             
+          <p class="hero-text">Brown has published over 100 papers in scientific journals. He co-authored the acclaimed book <i>The Social Life of Information</i> (HBS Press, 2000) with Paul Duguid. </p>
 
-<p class="hero-text-bold">Rich Gold</p>
-<img src="images/rich-gold.jpg" align="right" style="padding:0px 25px;">
-<p class="hero-text">Rich Gold was a composer, cartoonist, artist and researcher who holds ten patents. At Sega he invented &ldquo;Little Computer People&rdquo;  (Activision), the first fully autonomous commercially-available computerized person. At Mattel Toys he was the manager of the PowerGlove.</p>
-
-<p class="hero-text">Gold joined Xerox PARC in the early nineties, where he was a researcher in Ubiquitous Computing. In 1994, he created and ran the PARC artist-in-residence program (PAIR), which paired fine artists and scientists together based on shared technologies. He was also the manager of RED (Research in Experimental Documents) at Xerox PARC, which looks at the creation of new document genres by merging art, design, science and engineering.</p>
-
-<p class="hero-text">Gold was a provocative speaker who lectured throughout the world on the future of the book, 
-the nature of engineering, creativity, innovation and Evocative Knowledge Objects (EKOs). Rich passed away in his sleep on January 9, 2003.</p>
-
-<p class="hero-text">You can still see Rich Gold's webpage from 2002 on <a href="http://web.archive.org/web/20020604020041/http://www.richgold.org/">The Internet Archive.</a></p>
-</div>
-<div class="span1">
-</div>
-<div class="span5">
-
-<p class="hero-text-bold">John Seeley Brown</p>
-<img src="images/john-seeley-brown.jpg" align="right" style="padding:0px 25px;">
-<p class="hero-text">For nearly two decades, <a href="http://www.johnseelybrown.com/">John Seely Brown</a> served as Chief Scientist of Xerox Corporation and the director of its Palo Alto Research Center (PARC).</p> 
-
-<p class="hero-text">Brown expanded PARC's research to include new topics like radical innovation, organizational learning, complex adaptive systems, and nano technologies.  His personal research interests include digital youth culture, digital media and institutional innovation.</p>
-   
-<p class="hero-text">Brown has published over 100 papers in scientific journals. He co-authored the acclaimed book <i>The Social Life of Information</i> (HBS Press, 2000) with Paul Duguid. </p>
-
-<p class="hero-text">JSB takes a broad view of the human contexts in which technologies operate and a healthy skepticism on technology's impact on society.</p>
-
-</div>
+          <p class="hero-text">JSB takes a broad view of the human contexts in which technologies operate and a healthy skepticism on technology's impact on society.</p>
+      </div>
+    </div>
+    </section>
 
 
-	<div style ="clear:both"></div>
+<!-- footer  -->
+    <footer>
+    <div class="maxwidth maxwidth--xl">
+      <div class="grid grid--guttered">
+        <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-2 grid__cell--xl--1-2 grid__cell--xxl--1-2">
+          <div><p class="hero-text-bold"><a href="papers.html">Papers</a></p></div> 
+          <div><p class="hero-text-bold"><a href="book.html">Book</a></p></div> 
+          <div><p class="hero-text-bold"><a href="exercises.html">Exercises</a></p></div>
+        </div>
+        <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-2 grid__cell--xl--1-2 grid__cell--xxl--1-2">    
+          <div><p class="hero-text-bold"><a href="presentations.1.html">Presentations</a></p></div>
+          <div><p class="hero-text-bold"><a href="press.html">Press</a></p></div> 
+          <div><p class="hero-text-bold">Have something to add? <a href="feedback.html">Get in touch!</a></p></div>
+          <div><p class="hero-text">CalmTechnology.com is written and maintained by <a href="http://caseorganic.com">Caseorganic.com</a>.</p>
+        </div>
+      </div> 
+    </div>
+    </footer>
 
-	
- <!-- End Media Item with Image! -->
-
-<br><br><br>
-
-            <hr style="border: 1px dashed #eee;" />
-
-            <center><p class="hero-text-bold"><a href="papers.html">Papers</a></center>	
-            
-            <hr style="border: 1px dashed #eee;" />
-            
-            <center><p class="hero-text-bold"><a href="book.html">Book</a></center>	
-            
-            <hr style="border: 1px dashed #eee;" />
-
-            <center><p class="hero-text-bold"><a href="exercises.html">Exercises</a></center>
-            
-            <hr style="border: 1px dashed #eee;" />
-            
-            <center><p class="hero-text-bold"><a href="presentations.1.html">Presentations</a></center>
-            
-            <hr style="border: 1px dashed #eee;" />
-            
-            <center><p class="hero-text-bold"><a href="press.html">Press</a></center>	
-            <hr style="border: 1px dashed #eee;" />
-
-            
-
-<br><br><br>
-
-<center><p class="hero-text-bold">Have something to add? <a href="feedback.html">Get in touch!</a></p></center>	
-
-<br>
-
-</div>
-<hr> 
-
-<center><p class="hero-text">CalmTechnology.com is written and maintained by <a href="http://caseorganic.com">Caseorganic.com</a>.</p></center> 
-
-<hr> 
+  <!-- end footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
 
 </body>
-</html>
 
-    
+</html>

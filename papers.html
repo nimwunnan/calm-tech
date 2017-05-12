@@ -1,70 +1,79 @@
-<!DOCTYPE html>
 <html lang="en">
+  
+<!-- head  -->
   <head>
-	<meta charset="utf-8">
-	<title>Calm Technology</title>
-  <link type="text/css" rel="stylesheet" href="style.css">
-	<link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap.min.css">
-	<link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap-responsive.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script type="text/javascript" src="menu.js"></script>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  </head>
-<body>
+    <meta charset="utf-8">
+    <title>Calm Technology</title>
+<!--    <link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="bootstrap-2.2.2/css/bootstrap-responsive.min.css">
+ -->
+  <link rel="stylesheet" type="text/css" href="html-starter-scaffold.css">
+      <link type="text/css" rel="stylesheet" href="style.css">
 
-    <div class="navbar navbar-inverse">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="type.css">
+    <meta name="description" content="Calm technology is maintained by Amber Case"/>
+  </head>
+<!-- end head -->
+
+  <body style="overflow-x: hidden;">
+    
+
+    <!--MAIN NAV BAR--> 
+     <div class="navbar">
       <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="index.html">Calmtech.com</a>
-		      <ul class="nav">
+      <a class="brand" href="index.html">Calmtech.com</a>
+        <nav class="container">
+          <ul class="nav">
             <li><a href="about.html">About</a></li>
             <li><a href="book.html">Book</a></li>
             <li><a href="exercises.html">Exercises</a></li>
             <li><a href="papers.html">Papers</a></li>
             <li><a href="press.html">Press</a></li>
-
-          </ul>
-          <ul class="nav pull-right">
             <li><a href="feedback.html">Contact</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
     </div>
+    <!-- end main nav -->
 
-<!-- MOBILE NAV BAR -->
-  <div id="flip">=</div>
-  <div id="panel">
-    <ul>
-      <li><a class="brand" href="index.html">Calm<strong>tech</strong>.com</a></li>
-      <br>      
-      <li><a href="about.html">About</a></li>
-      <li><a href="book.html">Book</a></li>
-      <li><a href="exercises.html">Exercises</a></li>
-      <li><a href="papers.html">Papers</a></li>
-      <li><a href="press.html">Press</a></li>
-      <br>
-      <li><a href="feedback.html">Contact</a></li>
-  </div>
+    <!-- MOBILE NAV BAR -->
+    <div id="mobile-nav">
+    <div id="flip"><hr></div>
+      <div id="panel">
+        <ul>
+          <li><a class="brand" href="index.html">Calm<strong>tech</strong>.com</a></li>
+          <br>      
+          <li><a href="about.html">About</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="exercises.html">Exercises</a></li>
+          <li><a href="papers.html">Papers</a></li>
+          <li><a href="press.html">Press</a></li>
+          <br>
+          <li><a href="feedback.html">Contact</a></li>
+          </ul>
+      </div>
+      </div>
+    <!-- END MOBILE NAV -->
 
-<div class="container-fluid container-narrow">
+    <section class="wrap wrap--guttered maxwidth maxwidth--xl">
+      <div class="grid grid--guttered">
+        <h1>Original Papers on Calm Technology</h1>
 
-<div class="row-fluid">
-	
-<!-- BEGIN INTRO SECTION -->
-
-<div style="padding:25px 25px 25px 25px;">
-
-<div class="span6">
-
-<br>
-
-<h3 class="header-text">Original Papers on Calm Technology</h3>
-
-<br>
-
-		<p class="hero-text-bold">The following is a short list of papers that cover aspects of Calm Technology and Ubiquitous Computing.</p>
-		
-		<p class="hero-text-bold">These papers encapsulate a great deal of thinking about the future of computing. Many are far ahead of their time.</p>
+      <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-1 grid__cell--xl--1-1 grid__cell--xxl--1-1">
+      		<p class="hero-text-bold">The following is a short list of papers that cover aspects of Calm Technology and Ubiquitous Computing.</p>
+      		
+      		<p class="hero-text-bold">These papers encapsulate a great deal of thinking about the future of computing. Many are far ahead of their time.</p>
+    </div>
+      <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-1 grid__cell--xl--1-1 grid__cell--xxl--1-1">
+      <blockquote>
+        <p><i><b>Ubiquitous computing</b> is roughly the <b>opposite of virtual reality</b>. Where virtual reality puts people inside a computer-generated world, ubiquitous computing forces the computer to <b>live out here in the world with people.</b></i></p>
+        <br><p>-Mark Weiser</p>
+        &nbsp;
+      </blockquote>
+    </div>
+    <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-1 grid__cell--xl--1-1 grid__cell--xxl--1-1">
 
 		 <hr style="border: 1px dashed #eee;" />
 
@@ -92,7 +101,7 @@
 
 <p class="hero-text-bold">1993</p>
 
-<p class="hero-text"><strong><a href="http://www.ubiq.com/hypertext/weiser/UbiCACM.html">Some Computer Science Problems in Ubiquitous Computing.</a></strong> Mark Weiser. Communications of the ACM, July 1993.
+<p class="hero-text"><strong><a href="http://www.ubiq.com/hypertext/weiser/UbiCACM.html">Some Computer Science Problems in Ubiquitous Computing.</a></strong> Mark Weiser. Communications of the ACM, July 1993.</p>
 
 <hr style="border: 1px dashed #eee;" />
 
@@ -104,73 +113,37 @@
 
 <p class="hero-text-bold">1989</p>
 
-<p class="hero-text"><strong><a href="http://www.ubiq.com/hypertext/weiser/PortableCommonRuntimeApproach.html">The Portable Common Runtime Approach to Interoperability.</a></strong> Mark Weiser, Alan Demers, and Carl Hauser. <I>ACM Symposium on Operating Systems Principles,</i> December 1989.</p>
-
-
-</div>
-
-<div class ="span1">
-</div>
-
-<div class = "span4">
-	&nbsp;
-<blockquote>
-	<p><i><b>Ubiquitous computing</b> is roughly the <b>opposite of virtual reality</b>. Where virtual reality puts people inside a computer-generated world, ubiquitous computing forces the computer to <b>live out here in the world with people.</b></i></p>
-	<br><p>-Mark Weiser</p>
-	&nbsp;
-</blockquote>
+<p class="hero-text"><strong><a href="http://www.ubiq.com/hypertext/weiser/PortableCommonRuntimeApproach.html">The Portable Common Runtime Approach to Interoperability.</a></strong> Mark Weiser, Alan Demers, and Carl Hauser. <i>ACM Symposium on Operating Systems Principles,</i> December 1989.</p>
 
 </div>
 
-<div style="clear:both">
-
- <!-- End Media Item with Image! -->
-
-<br><br><br>
-
-            <hr style="border: 1px dashed #eee;" />
-
-            <center><p class="hero-text-bold"><a href="papers.html">Papers</a></center>	
-            
-            <hr style="border: 1px dashed #eee;" />
-            
-            <center><p class="hero-text-bold"><a href="book.html">Book</a></center>	
-            
-            <hr style="border: 1px dashed #eee;" />
-
-            <center><p class="hero-text-bold"><a href="exercises.html">Exercises</a></center>
-            
-            <hr style="border: 1px dashed #eee;" />
-            
-            <center><p class="hero-text-bold"><a href="presentations.1.html">Presentations</a></center>
-            
-            <hr style="border: 1px dashed #eee;" />
-            
-            <center><p class="hero-text-bold"><a href="press.html">Press</a></center>	
-            <hr style="border: 1px dashed #eee;" />
-
-            
-
-<br><br><br>
-
-<center><p class="hero-text-bold">Have something to add? <a href="feedback.html">Get in touch!</a></p></center>	
-
-<br>
-
 </div>
-<hr> 
-
-<center><p class="hero-text">CalmTechnology.com is written and maintained by <a href="http://caseorganic.com">Caseorganic.com</a>.</p></center> 
-
-<hr> 
-
-<div>
-		<p><i><b>Notice:</b> All articles included here retain the copyright of their respective authors and publishers. The articles are placed here for archival and educational purposes only. Links to original articles are included on every page. Articles that were not freely avaiable on the web were not included in this list. If you see anything out of place, or need to get in touch, please use the <a href="https://www.calmtech.com/feedback.php">feedback form</a>. </i></p>
-		
 </div>
+</section>
+
+<!-- footer  -->
+    <footer>
+    <div class="maxwidth maxwidth--xl">
+      <div class="grid grid--guttered">
+        <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-2 grid__cell--xl--1-2 grid__cell--xxl--1-2">
+          <div><p class="hero-text-bold"><a href="papers.html">Papers</a></p></div> 
+          <div><p class="hero-text-bold"><a href="book.html">Book</a></p></div> 
+          <div><p class="hero-text-bold"><a href="exercises.html">Exercises</a></p></div>
+        </div>
+        <div class="grid__cell grid__cell--s--1-1 grid__cell--m--1-1 grid__cell--l--1-2 grid__cell--xl--1-2 grid__cell--xxl--1-2">    
+          <div><p class="hero-text-bold"><a href="presentations.1.html">Presentations</a></p></div>
+          <div><p class="hero-text-bold"><a href="press.html">Press</a></p></div> 
+          <div><p class="hero-text-bold">Have something to add? <a href="feedback.html">Get in touch!</a></p></div>
+          <div><p class="hero-text">CalmTechnology.com is written and maintained by <a href="http://caseorganic.com">Caseorganic.com</a>.</p>
+        </div>
+      </div> 
+    </div>
+    </footer>
+
+  <!-- end footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
 
 </body>
 
 </html>
-
-    

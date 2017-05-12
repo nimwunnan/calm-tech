@@ -107,6 +107,21 @@ nav ul li a {
   color: white;
 }
 
+#mobile-nav {
+  display: none;
+  background-color: #a1d7d4;
+  width: 100%;
+  float: left;
+  overflow: auto;
+  padding: 20px;  
+}
+
+#mobile-nav ul li {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
 /*---*/
 
 /*######################## new ########################*/
@@ -217,16 +232,43 @@ section {
     a{
       text-decoration: none;
     }
-    #panel, #flip {
-        width: 95%;
-        padding: 5px;
+
+    #mobile-nav {
+      display: block;
+      position: relative;
+      min-height: 60px;
+    }
+    #panel {
+        width: 100%;
         color:white;
         text-align: center;
-        background-color: #000;
-        margin:auto;
         text-decoration: none;
+        float: left;
+        display: none;
     }
 
+#flip {
+      border-top: 1px solid white;
+      border-bottom: 1px solid white;
+      width: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      color: white;
+      height: 10px;
+      padding: 10px 0px 11px;
+      cursor: pointer;
+      overflow: auto;
+      position: relative;
+      z-index: 1000;
+    }
+
+  #flip hr {
+    width: 100%;
+    border-bottom: 1px solid white;
+    height: 1px;
+    margin: 0px;
+  }
     #panel li{
         margin-right: 30px;
         padding: 3px;
