@@ -68,7 +68,13 @@ h4.media-heading {
   line-height: 1.2;*/
   color: #262626;
 }
-.hero-text {
+header .hero-text {
+  font-size: 1.7em;
+}
+
+  footer p.hero-text {
+      font-size: 14px;
+    }
 
 /*	font-family: 'Didact Gothic', serif;
 	font-size:18px;
@@ -76,6 +82,7 @@ h4.media-heading {
 	font-weight:200;*/
 }
 .hero-text-bold {
+  font-weight: 400;
 /*
 	font-size:20px;
 	line-height:27px;
@@ -196,10 +203,13 @@ hr {
 }
 /* border style */
 
-hr, .calm-tech-example, #principles-list ol li {
+hr, .calm-tech-example{
   border-bottom: dotted 4px #a1d7d4;
 }
 
+#principles-list ol li {
+  border-bottom: dotted 4px lightgrey;
+}
 .calm-tech-example:last-child {
   border-bottom: none;
 }
@@ -232,35 +242,54 @@ section {
     a{
       text-decoration: none;
     }
-
+    #logo {
+      width: 50%;
+      margin: 30px 25%;
+    }
     #mobile-nav {
       display: block;
       position: relative;
       min-height: 60px;
     }
     #panel {
-        width: 100%;
-        color:white;
-        text-align: center;
-        text-decoration: none;
-        float: left;
-        display: none;
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: none;
+    padding-top: 20px;
+    border-top: 1px solid white;
+    margin-top: 15px;
     }
 
+    #hero {
+      clear: both;
+    }
+    #hero h1, h1 {
+      font-size: 2.2em;
+    }
+
+    .hero-text {
+      font-size: 1.4em;
+    }
+  #principles-list ol li {
+    padding: 20px 2%;
+    }
 #flip {
-      border-top: 1px solid white;
-      border-bottom: 1px solid white;
+      /*border-top: 1px solid white;*/
+      /*border-bottom: 1px solid white;*/
       width: 20px;
       margin-left: auto;
       margin-right: auto;
       display: block;
-      color: white;
-      height: 10px;
-      padding: 10px 0px 11px;
+      /*color: white;*/
+      height: 20px;
+      /*padding: 10px 0px 11px;*/
       cursor: pointer;
       overflow: auto;
       position: relative;
-      z-index: 1000;
+      z-index: 500;
     }
 
   #flip hr {
@@ -275,9 +304,11 @@ section {
     }
 
     #panel a{
-    	color: lightgrey;
+    	color: white;
     	font-size: 120%;
     	letter-spacing: 1px;
+      position: relative;
+      z-index: 1005;
     }
 
     #panel {
