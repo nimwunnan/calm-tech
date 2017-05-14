@@ -218,6 +218,16 @@ hr, .calm-tech-example{
 section {
   margin:20px 0px;
 }
+
+#speeches div img{
+  float: right;
+}
+
+#speeches .grid--guttered {
+  border-top: dotted 4px lightgrey;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
 /*######################## mobile ########################*/
 /*Mobile Nav*/
 
