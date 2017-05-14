@@ -115,11 +115,11 @@ nav ul li a {
 }
 
 #mobile-nav {
-  display: none;
+  position: fixed;
+  margin-left: 10000px;
   background-color: #a1d7d4;
   width: 100%;
   float: left;
-  overflow: auto;
   padding: 20px;  
 }
 
@@ -187,6 +187,7 @@ footer {
   width: 100%;
   float: left;
   border-top: dotted 4px #a1d7d4;
+  margin-top: 45px;
 }
 
 hr {   
@@ -246,12 +247,24 @@ section {
       width: 50%;
       margin: 30px 25%;
     }
-    #mobile-nav {
-      display: block;
+    #flip {
       position: relative;
+      margin-left: 0px;
       min-height: 60px;
+      float: left;
+      height: 80px;
+        background-color: #a1d7d4;
+  width: 100%;
+  float: left;
+  padding: 20px;  
     }
+/*    #mobile-nav div {
+      float: left;
+      height: auto;
+    }*/
     #panel {
+    background-color: #a1d7d4;
+
     width: 100%;
     color: white;
     text-align: center;
@@ -260,7 +273,7 @@ section {
     display: none;
     padding-top: 20px;
     border-top: 1px solid white;
-    margin-top: 15px;
+    margin-top: 0px;
     }
 
     #hero {
@@ -279,17 +292,26 @@ section {
 #flip {
       /*border-top: 1px solid white;*/
       /*border-bottom: 1px solid white;*/
-      width: 20px;
+      width: 100%;
       margin-left: auto;
       margin-right: auto;
       display: block;
       /*color: white;*/
-      height: 20px;
-      /*padding: 10px 0px 11px;*/
+      height: 60px;
+      padding: 10px 0px 11px;
       cursor: pointer;
       overflow: auto;
-      position: relative;
-      z-index: 500;
+/*      position: relative;
+      z-index: 500;*/
+      text-align: center;
+    }
+
+    #flip img {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      z-index: 1000;
+
     }
 
   #flip hr {
