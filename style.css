@@ -160,12 +160,16 @@ header {
 #principles-list > ol {
   width: 100%;
   margin: auto;
+  padding-left: 0px;
+
 }
 
+#princples-list ol {
+}
 #principles-list ol li {
    clear: left;
     font-weight: 800;
-    padding: 40px 10% 20px;
+    padding: 40px 0px 20px;
     list-style-position: inside;
 }
 

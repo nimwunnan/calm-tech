@@ -8,7 +8,7 @@ body {
   font-family: 'Didact Gothic', serif;
 }
 
-p, li {
+p, li, footer p, footer p.hero-text-bold {
   font-size: 1.2em; /* 14px */
   line-height: 1.3em; /* 20px */
   /*margin: 1.4286em 0 0 0;*/
@@ -48,6 +48,11 @@ h4, .class-for-21px {
 /* 14px - The quick brown fox jumps over the lazy dog */
 p, .media-body p {
   font-size: 1.2em; /* 14px */
+}
+
+header h1, section h1, h1 {
+  font-size: 1.7em;
+  line-height: 1.9em;
 }
 
 @media all and (max-width: 768px)

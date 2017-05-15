@@ -440,7 +440,7 @@ p {
   margin: 0 0 16px; }
 
 a {
-  color: #2196f3;
+  color: #a1d7d4;
   text-decoration: none;
   outline: 0;
   -ms-transition: color 200ms ease-in-out;
@@ -518,7 +518,7 @@ mark {
 
 blockquote {
   font-style: italic;
-  border-left: 3px solid #2196f3;
+  border-left: 3px solid #a1d7d4;
   margin: 32px 0;
   padding: 16px; }
   blockquote :last-child {
@@ -691,7 +691,7 @@ input[type=search] {
 .btn {
   -webkit-appearance: none;
   -moz-appearance: none;
-  background: #2196f3;
+  background: #a1d7d4;
   /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
   font-size: 16px;
   line-height: 1;
@@ -702,7 +702,7 @@ input[type=search] {
   display: inline-block;
   width: 100%;
   height: 44px;
-  border: 2px solid #2196f3;
+  border: 2px solid #a1d7d4;
   border-radius: 3px;
   box-shadow: none;
   margin: 0;
@@ -740,7 +740,7 @@ input[type=search] {
   .btn--link {
     background: transparent !important;
     font-size: 16px;
-    color: #2196f3;
+    color: #a1d7d4;
     text-align: left;
     width: auto;
     border: 0 none;
@@ -1098,7 +1098,7 @@ svg.logo {
   max-width: 100%;
   height: auto; }
   svg.logo path {
-    fill: #2196f3;
+    fill: #a1d7d4;
     -ms-transition: all 200ms ease-in-out;
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out; }
