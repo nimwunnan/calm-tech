@@ -221,6 +221,7 @@ hr, .calm-tech-example{
 
 section {
   margin:20px 0px;
+  overflow: auto;
 }
 
 #speeches div img{
@@ -294,7 +295,8 @@ section {
       clear: both;
     }
     #hero h1, h1 {
-      font-size: 2.2em;
+      font-size: 1.8em;
+      line-height: 1.5em;
     }
 
     .hero-text {
@@ -349,5 +351,8 @@ section {
 
     #panel {
         display: none;
+    }
+    footer .grid--guttered .grid__cell {
+      margin-bottom: 0px;
     }
   }
